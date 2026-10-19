@@ -75,14 +75,11 @@ Three hard cases:
 
 ## How I Used AI
 
-- AI helped propose a first-pass label from visible features such as sources,
-  reasons, and reply length. I tightened the filters and kept the disclosure
-  in every CSV row.
-- AI pressure-tested the hardest boundary. I changed the rule so a reasoned
-  view needs a checkable fact, example, number, or source to count as
-  `analysis`.
+AI helped me propose a first-pass label from visible features such as sources,
+reasons, and reply length. I tightened the filters and kept the disclosure in
+every CSV row and also helped me draft the readme.
 
 **Pre-labeling disclosure:** All 200 rows were automatically pre-labeled and
 reviewed against the written definitions. No row is marked as cold.
 
-See [RUNNING.md](RUNNING.md) for commands.
+See RUNNING.md for commands.
