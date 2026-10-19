@@ -1,0 +1,793 @@
+text,label,note
+"Based on this NSA documentation [1], they didn't actually synchronise the clocks with each other. They just tuned each machine's quartz oscillator with the nearest national time source. They were mostly dialling in the oscillator frequency here, not the exact time, so it didn't really matter they were synchronising to different national time standards.
+
+Besides, even with the automated start system, the actual spin-up time of the turntables would have been a little chaotic. I suspect they were only aiming to get the four turntables within about 100ms of each other. The decrypted signal itself could then be used for the final fine-tuning of the timings (which also included adjusting for any speed-of-light delays)
+
+If you weren't within 20ms, the operator would only hear noise (like a radio). Once they were within ~20ms, the operator would start hearing silence and would tune the phase until all noise went away.
+
+You don't really need exact synchronisation because like a radio, the operator could just scrub the tuning to find the silence.
+
+The synchronised clocks meant that once the operators had locked on, it would stay locked for a long time.
+
+[1] https://www.nsa.gov/portals/75/documents/about/cryptologic-h...",analysis,AI pre-labeled; reviewed; Hacker News item 50148134
+"Wanted to dog pile on this - Godaddy gave away my entire account back when I was younger. I lost lots of domains, including my website, ""strategywiki.org"".
+
+https://news.ycombinator.com/item?id=38062595
+
+https://news.ycombinator.com/item?id=32470260
+
+https://news.ycombinator.com/item?id=24507411
+
+Looks like I'll be transitioning off of Namecheap now too.",analysis,AI pre-labeled; reviewed; Hacker News item 50147395
+"TFA has a link to the amazon page for the bearing used. It's a bearing plus freewheel clutch. Most commonly (and in this specific case) it means sprag clutch[1], but it may be e.g. a ratchet/pawl[2] (like most bikes have) or a roller freewheel[3].
+
+1: https://en.wikipedia.org/wiki/Sprag_clutch
+
+2: https://en.wikipedia.org/wiki/Ratchet_(device)
+
+3: Couldn't find a wikipedia page for this, so https://www.youtube.com/watch?v=AU4OguQmyMM",analysis,AI pre-labeled; reviewed; Hacker News item 50147581
+"See also the legal drama over someone trademarking ""NATO strap"" for watches:
+
+* https://mgbwatches.com/blogs/journal/why-we-re-phasing-out-t...
+
+* https://timeandtidewatches.com/trademark-wrangle-over-nato-s...
+
+* https://www.crownandbuckle.com/nato-strap-history
+
+* https://www.nato.int/en/about-us/nato-history/history-by-the...",analysis,AI pre-labeled; reviewed; Hacker News item 50147295
+"> I still prefer TypeScript since I do a lot of frontend work and prefer to use the same language across the stack.
+
+If you perfer using the same language for both frontend and backend work, yet would like to have one more semantically rich than TypeScript, consider Scala.
+
+For the frontend, ScalaJS[0].
+
+For the backend, Scala[1].
+
+0 - https://www.scala-js.org/
+
+1 - https://scala-lang.org/",analysis,AI pre-labeled; reviewed; Hacker News item 50147828
+"> ""Turns out, this is part of macOS 27.0…""
+
+Part of macOS 26.4, in fact: https://eclecticlight.co/2026/09/19/macos-tahoe-26-4-changed... ""The layout of those hasn’t changed in over six years up to and including macOS Tahoe 26.3.1, but has altered in 26.4 and Golden Gate, with the addition of a new firmlinked directory pkg.""
+
+Apple doesn't do this stuff lightly. A search of WWDC sessions doesn't mention /pkg specifically, but I'd bet it's related to this: https://developer.apple.com/videos/play/wwdc2026/206/?time=6...",analysis,AI pre-labeled; reviewed; Hacker News item 50147453
+"Non paywalled: https://calmatters.org/economy/technology/2026/10/mychart-he...
+
+Reading the article: it's not so much Epic's MyChart or CareEverywhere but a broken system which makes it hard or impossible to opt-out of institutional defaults. The moment health records are shared via CareEverywhere or IHEs all receivers have a copy under their jurisdiction and it turns into an interaction from 1 to N if you want to opt out.
+
+The data also does not belong to the patient; it belongs to the hospitals and clinics to use for whatever they deem valid business purposes (mostly in good faith, but there are always exceptions and no one looking, no one enforcing).",analysis,AI pre-labeled; reviewed; Hacker News item 50148158
+"> Neat! My Japanese is a bit rusty, how much memory is this?
+
+The smaller one is 16 bit. The larger one is 128 bytes, or 1024 bit. The PCB is labelled in English. ;) (pause at 49s)
+
+(There are also subtitles in English, though, yes, those could be inaccurate.)
+
+> Wait, is each of the rings one bit?
+
+Yes. <https://en.wikipedia.org/wiki/Magnetic-core_memory>",analysis,AI pre-labeled; reviewed; Hacker News item 50147663
+"I haven't watched this one but I expect this to live up to the level of quality of other work from Fielder.
+
+Btw, I recently learned he's Jewish and has done a lot of work to increase awareness of sensitive topics like the Holocaust, from his now signature comedic but controversial approach[1]. Worth taking a look as well.
+
+1: https://www.jpost.com/diaspora/antisemitism/article-852044",analysis,AI pre-labeled; reviewed; Hacker News item 50148088
+"I like this site, but looking at it right now, I'm seeing some obvious Opus 5 era Claudese in here [1]. I'm not sure how much I can trust something written lazily by an LLM, as it means there's no way to know if there's a human in the loop or if someone just has a Hermes agent out there doing automated research and writing it up automatically.
+
+1: https://ledger.worseonpurpose.com/brands/new-balance ""Why Approved"" section",analysis,AI pre-labeled; reviewed; Hacker News item 50147460
+"The author is wrong, and a software factory isn't a distraction.
+
+People are thinking about this from a quantity angle, but the key is quality, and achieving a self-maintaining project at home. I built a distributed trading system that runs multiple strategies in US options and MUST be correct. So my goal wasn't to build huge quantities of software and pump out garbage, but to ensure correct behavior and proper fixes in the codebase with agents.
+
+Open sourced my methodology:
+https://github.com/pullboard-dev/pullboard",analysis,AI pre-labeled; reviewed; Hacker News item 50147679
+"Very interesting project. It'd be nice to see video of it in action and what use cases the author had in mind. A pic in a different post shows the 48k ram chip, and not far away is an SD card of 1 gigabyte - that's a dramatic contrast. The storage can hold the contents of ram 21,845 times over. If an 8GB laptop today had the equivalent storage, it would be a disk of 174TB.
+
+Browsing by tag 'lt6502b' gives other posts that have pictures of the motherboard. https://www.maddox.pro/?cat=65 (update: the codeberg link has all the relevant pics)",analysis,AI pre-labeled; reviewed; Hacker News item 50147361
+"This was confusing since Namecheap used to be a perfect company.
+
+It turns out it was solid to MBA, PE bros [0].
+
+This explains the detoration of services.
+
+[0]: https://www.wsj.com/business/deals/cvc-strikes-1-5-billion-d...",analysis,AI pre-labeled; reviewed; Hacker News item 50148121
+"i open-sourced the app, although you can make your own quite trivially https://github.com/nichochar/ari
+
+i borrowed the SOUL.md concept from openclaw, but repurposed as TUTOR.md
+
+it uses codex locally so you can use your subscription credits rather than an API key
+
+it's very fun!",analysis,AI pre-labeled; reviewed; Hacker News item 50147872
+"Still going huh? https://news.ycombinator.com/item?id=50082195 Are you a bot?
+
+> Please don't use HN primarily for promotion. It's ok to post your own stuff part of the time, but the primary use of the site should be for curiosity.
+
+https://news.ycombinator.com/newsguidelines.html",analysis,AI pre-labeled; reviewed; Hacker News item 50148178
+"What seems to be happening is that Ukraine, which has a rocket industry from the Soviet era, is building such missiles, and, through a quiet deal with Taiwan, the electronics is provided.[1] This is not a secret but nobody talks about numbers.
+
+[1] https://ipdefenseforum.com/2026/01/taiwan-looks-to-partner-w...",analysis,AI pre-labeled; reviewed; Hacker News item 50148329
+"Link about plagiarism by OpenAI on solving Navier Stokes's Theorem https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_priority...
+
+Let's just say that The math problem that got solved, I was working on it for many years but some company people used my knowledge my prompts and ""solved"" it without giving me any credits or money. 
+Firstly they plagiarised the books and research papers and then they plagiarised the prompts by the mathematicians.
+Yes AI can make art and has caused many artists finding work difficult but AI art is always souless and worthless, same thing will be for math it will become souless and worthless because when humans who are experts in their fields invest their ingenuity then art becomes alive but if ordinary people like me will just prompt into the machine then souless things will come out that will be very worthless and disposable.",analysis,AI pre-labeled; reviewed; Hacker News item 50147844
+"I dunno, I think if the hypothesis is ""School closing causes poor perforance due to learning loss"", shouldn't the strongest explanatory variable be duration of closure? This weird inversion makes me think something else is going on. If gender is a bigger predictor than duration, then it is the fact of the schools closing at all more than the duration, which would point to another variable being dominant (duration was negative, so it is certainly part of the explanation).
+
+One possible alternative explanation is that all the kids were stressed out of their minds because there was a killer virus on the loose and no one could focus in school or outside. If you want to guess at gender differences, one might be that girls care about other people more, and so were more stressed out by the thought of their parents or grandparents dying. I don't really think girls care that much more than boys though. There would need to be some kind of retrospective ethnographic study to figure out what the heck happened.
+
+Another explanation could be that since the kids were used to distribute viruses to reopen the economy, their health suffered. There is ample documentation that women get long covid more frequently than men.",analysis,AI pre-labeled; reviewed; Hacker News item 50148389
+"Supposedly like this: https://www.youtube.com/watch?v=OvR4qK0B--w&t=517s
+
+(I see now that it was already linked elsewhere in the the thread.)
+
+Pretty impressive for cross atlantic one-time pad voice comms in an analogue era, I think. It's amazing what money and smart people can accomplish.
+
+Also found this fantastic page: https://www.cryptomuseum.com/crypto/usa/sigsaly/",analysis,AI pre-labeled; reviewed; Hacker News item 50147850
+">Yes, you can probably build a cheaper Tomahawk missile today. However, can someone else build a cheaper drone that is even better for the battlefield theaters of the next several decades?
+
+I heard the US produced knockoffs of the Iranian ~$10-50k drone and produces it for ~$35K and its a modular and an upgradable platform (ie. not just a dumb copy). If you ask me, that ability to not only produce castles but also 'cheap cannons' as per your analogy when needed for cheaper and then improve on top of it is a pretty darn good skill.
+
+[1]:https://en.wikipedia.org/wiki/Low-cost_Uncrewed_Combat_Attac...",analysis,AI pre-labeled; reviewed; Hacker News item 50148460
+"As mentioned, that had a tough sync problem. SIGSALY changed its key every 50ms. The mechanical synching of two turntables within that range was possible. That worked because the audio was being compressed pretty hard before encryption.
+Delilah, which works by using a modular analog adder to add signal and key noise, would need a new analog key value for every audio sample. Probably 3KHz or so, or about 300usec. That's beyond the precision of sync which can be achieved reliably by mechanical means.
+
+A little bit of analog buffer would help. 
+It wouldn't be a problem for transistor era electronics. You need something like an analog shift register (see ""bucket-brigade device""[1]) Those were not developed until the 1970s, and, for a while, appeared in guitar pedals, reverbs, and other simple audio processing devices. If you had to do that with tubes, you'd have a whole rack of tube delay line.
+
+Fun retro electronics project for someone.
+
+[1] https://en.wikipedia.org/wiki/Bucket-brigade_device",analysis,AI pre-labeled; reviewed; Hacker News item 50147949
+"I was thinking of these cases, turns out it was a facility in Louisiana, not gitmo.
+
+https://en.wikipedia.org/wiki/Detention_of_R%C3%BCmeysa_%C3%...
+
+https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",analysis,AI pre-labeled; reviewed; Hacker News item 50148301
+"I don't get how of the personal assistant can be useful without having to see my conversational data so this is great.
+
+Do you know if running Whatsapp in Cloud risks your account to be banned?
+
+I'm working on a similar tool, connecting all that data to build your context graph that knows all the people and conversations and expose it via MCP. https://lobu.ai/for/personal/
+
+My approach is requiring you to have a home device where you keep your accounts open in a browser and observing the data from there. The same applies to Linkedin, Instagram, X etc. even reading my timeline to summarize what I need to know without me doomscrolling.",analysis,AI pre-labeled; reviewed; Hacker News item 50147640
+"They have ""connectors"" you can configure for a variety of services, and both specific external tools and custom webhooks: https://tailscale.com/docs/aperture/integrate
+
+I'm building a ""bring your own data"" layer for agentic work of all sorts, using the webhook method for now.
+
+In the context of Aperture, I watch for agents looking for certain types/sources of data, and instead provide them with an in-tailnet API for accessing that data.
+
+In a personal context, think email, calendar events, music playlists, fitness app records, transactions. I've also found it useful in a professional context, but I think I need to explore that a fair bit more.
+
+It keeps credentials out of agents hands, and provides some relatively standard ways for controlling what agents can see and change.
+
+I need a fair bit of hardening work before I try to get random folk to use it, but I might post something more here in the next week. :)",analysis,AI pre-labeled; reviewed; Hacker News item 50148230
+"This is the best one I found https://github.com/kenn-io/agentsview
+
+It is a not proxy. It can clearly show whats going on across all agents. The proxy's are generally inconvenient and yet another point of failure. I think the author got to the resort option quickly",analysis,AI pre-labeled; reviewed; Hacker News item 50147725
+"Jimmy Carr in 2008:
+
+> Of course you get a lot of right-wing people saying ""oh these Poles; they come over here taking our jobs"". I think if a guy from Poland arrives and he doesn’t speak the language, he doesn’t have any money and he doesn’t know anyone, and he takes your job on the first day – you’re shit, fuck off.""
+
+https://www.youtube.com/watch?v=t2ICmOYP8gs
+
+Somehow I think ""taking our jobs"" concerns are going to be a lot more palatable.",analysis,AI pre-labeled; reviewed; Hacker News item 50148480
+"I hope you understand that just because a proposed explanations makes intuitive sense, it doesn't automatically have to be right.
+
+Edit - it seems there's evidence that this intuitive explanation is wrong, see the article linked here: https://news.ycombinator.com/item?id=50146562
+
+This is why I like to remind myself that the world is much more interesting than I often think, which is why the drive to jump to simple and boring explanations can often be a trap.",analysis,AI pre-labeled; reviewed; Hacker News item 50147389
+"A Flock spokesperson told 404 Media, “The ruling goes against the overwhelming weight of authority in similar cases across the country, including multiple recent decisions in Oklahoma, and we expect it will be appealed and ultimately overturned. This ruling is limited to the specific facts of this case. It does not set controlling precedent and does not affect law enforcement agencies’ continued use of these important public safety technologies.”
+
+https://www.404media.co/federal-judge-rules-a-flock-search-w...",analysis,AI pre-labeled; reviewed; Hacker News item 50147902
+"> if only LLMs do then what is the point?
+
+It turns out it doesn't matter, because outside of a few narrow bands like Claude Code, no one cares what documentation an LLM writes for your project, because no one is ever going to go looking for someone else's project or library to solve their problem anymore.
+
+So either an LLM decides to pull in your project as a library for reasons, in which the LLM can understand the documentation, or else no one besides the creator is using it anyway. So it doesn't matter.
+
+Why would anyone use someone else's AI-coded project if they can get their own version that better fits their own needs in less time?",analysis,AI pre-labeled; reviewed; Hacker News item 50147532
+"France spent ~5% of its GDP on education. 5th in the EU in spending.
+
+France is in the top 20% of the world in terms of resources and probably around the middle of the OECD.
+
+When I went to school we had classes of 35 students. Often in the heat with no air conditioning. And we didn't go riot, burn city halls, loot stores etc. We didn't mask up and go throw rocks at the police either.
+
+Whatever is going on in France, thinking about it as ""students protesting for better schools"" doesn't feel correct at all. You see organized groups of masked protesters attacking the police, looting etc. Are there a lot of people who think they're out there for some supposed good cause? Sure.",analysis,AI pre-labeled; reviewed; Hacker News item 50147839
+"That's literally the 7.3k Upvoted top comment and I also think Grant didn't chew this one through appropriately. 
+I was kinda offended at 17:10, where OpenAI paper dumping proofs ""takes all the wind of [mathematicians] sails"". But it's so much more than that.
+
+He did go more into it at 30:00, where he accepts that something is lost here. Or as Terence Tao said, the ""age of heroes"" in mathematics is has come to an end. I think Grant's points on funding and maths having a strong future are true. But I still think the dehumanizing part wasn't properly honored. But then again, this is supposed to be positive push into the future, so dwelling on it is not something Grant wanted to do.",analysis,AI pre-labeled; reviewed; Hacker News item 50147748
+"My understanding is that there are private equity firms who have legitimate strategy and competency with turning around struggling companies.
+
+Good examples have come up in fast food industry like Arby's and Buffalo Wild Wings.
+
+Last paragraph on this article:
+
+https://www.fershman.com/articles/private-equity%E2%80%99s-s...
+
+This ""vampire the company into a debt spiral"" strategy is definitely not what happened in these cases, though we can argue about whether the end product is better or worse off for it. I'm certainly not lining up at Arby's, Dunkin, or Buffalo Wild Wings. Still, I think that question is essentially irrelevant to the topic at hand: this is a private equity firm that's legitimately trying to make the company healthier on business fundamentals.",analysis,AI pre-labeled; reviewed; Hacker News item 50147863
+"> 3 docks in the river, a pool, and a few lakes. No value seems a bit hyperbolic.
+
+The typical HOA (and by typical I mean asymptotically close to 100% of them) do not maintain 3 docks in a river and a few lakes!
+
+If a neighborhood has those kinds of resources, some kind of HOA fee seems reasonable, agreed.
+
+Even in such a neighborhood, the HOA should be limited by law to managing those common area rivers and lakes, not allowed to have any opinion about what flowers someone plants in their yard or what color windoshades they install.
+
+The typical HOA does not have rivers nor lakes. They only have bitter dictator-wannabe board members who look for ridiculous ""violations"" like your grass is 3/4"" tall when their rulebook says 1/2"" tall, so they can send eviction notices to flex their power.",analysis,AI pre-labeled; reviewed; Hacker News item 50148063
+"It's not luck, it's survivor bias on the reporting.
+
+He probably pulls 20-100 [0] people over every day. All of those checks are unconstitutional. Once every 1-100 days one of them has something worth going to court over. Most of those will be plea-bargained and never reach a judge. If it's sufficiently serious, though, it's worth the fight in court. So the judge will only see the really serious cases.
+
+And we're only seeing the reporting because the judge did something unusual and ruled the entire operation unconstitutional.
+
+So it's not ""wow! those cops really know their business; they pulled over the one person carrying meth!"". It's ""wow! out of thousands of illegal, unconsitutional, vehicle stops, one person got taken to court and put in front of a judge, and that case was thrown out""
+
+[0] I have no idea on actual numbers. The point still holds.",analysis,AI pre-labeled; reviewed; Hacker News item 50148484
+"> The context gets added back to the latent vectors (which are the Q,K inputs) after every transformer layer, so they are ""at least 50% words"".
+
+Not in a modern decoder-only transformer it doesn't. The tokens are turned into embeddings which are fed into the residual layer at the front. From then on it's latents all the way down.
+
+Each layer does a feed forward update of the state, like the euler step in ODE solver-- but what they're operating on is the evolving hidden state and not the tokens/embeddings. So there isn't any sense in which the representations must remain 'words'.
+
+(Okay fine Qwen3.8-flash-next injects an ngram embedding at layer 2 too-- but that's it).
+
+[Source: I've directly implemented inference engines for multiple SOTA open models on weirdo hardware-- they wouldn't have worked if I got this wrong...]
+
+> If you start doing continuous chain of thought in a 1M-token context you're hundreds of millions of layers away from tokens.
+
+The KV state in that 1M token context is also potentially far away from any state that is observable outside of the model! (this being my point, and why I'm bothering to disagree with your correction).
+
+Now I would agree that there being concerning hidden state is not likely and thus not a major concern, but it's not likely for the same reason that it's not likely in latent reasoning.",analysis,AI pre-labeled; reviewed; Hacker News item 50147780
+"I never thought about the process like that but it makes sense.
+
+In the ""Age of LLMs"" I wrote many pieces of software that are scrapped and never seen the light of day.
+
+For example knowledge graph editor or a personal task manager that visualizes them using railroad-diagrams style.
+
+Right now I'm working on a Glamorous Toolkit and Emacs mashup that uses Haskell for fully moldable experience. And it's not like I'm uniquely equipped to do it, nor it wouldn't be possible to do few years back. But I'm the one who picked it up and thanks to LLMs I can have progress in days instead of weeks.
+
+And if it ever is released and you ever have chance to run it it won't be a random AI slop because random AI slop wouldn't envision something like that. That'll be 100% me inside.",analysis,AI pre-labeled; reviewed; Hacker News item 50148493
+"Title: Updates to site guidelines and AI/LLM tags
+
+> don't editorialize
+
+https://news.ycombinator.com/newsguidelines.html
+
+First topic: we no longer allow submissions which are code repositories
+
+First and a half topic (lobs mistake): We're listing ""careers"" as off-topic to try to head off posts about interviewing, promotions, burnout, and farming.
+
+Third: The second adjustment is that the vibecoding tag is now marked as inactive.",analysis,AI pre-labeled; reviewed; Hacker News item 50148437
+"TurboC generated very fast code. Up to a point. As the program got larger, the execution speed slowed down. This was puzzling, as TurboC didn't generate very good code. Until I discovered that the TurboC runtime library was implemented in carefully hand-coded assembler. This gave small programs (i.e. benchmark programs, the only programs that mattered) a big boost in speed! It was a smart move by Borland.
+
+Zortech's `long double` was 80 bits. In D, the `real` type is 80 bits. Sadly, that isn't available on the AArch64 processor.",analysis,AI pre-labeled; reviewed; Hacker News item 50147289
+"> autonomous driving is a con job? You can stop the trolley at any point but doing so would admit you were wrong.
+
+What? You do understand that in Europe Tesla was forced to market their feature as ""Tesla assisted driving"" instead of FSD because regulators in multiple European countries determined that it is unable to drive the car on its own and the FSD claim is misleading.
+
+https://www.wired.com/story/tesla-full-self-driving-becomes-...
+
+Even in the US Tesla markets it as FSD (supervised), which you must admit is a contradiction.",analysis,AI pre-labeled; reviewed; Hacker News item 50148466
+"https://en.wikipedia.org/wiki/Cha_siu_bao
+
+they are primarily of chinese origin. i know them from living in china and travelling in asia. how is that a stereotype? and more importantly, what's gross about it? or how is it racist? i didn't say anything about chinese people, nor did i claim that all chinese eat porkbuns. that would be a possibly racist stereotype.
+
+sure, it's a generic name, and you could name anything that is a bun with pork a porkbun. but that doesn't negate what i said.
+
+i have lived and traveled to many countries on four continents. but apparently i have not travelled enough to ever come across porkbuns that are not the chinese kind. apologies for my ignorance.
+
+i suppose german Speckknödel could translate to porkbun too. my bad.
+
+in most cards games i know, the joker is a positive wild card, because you can use it as a fill in for any other card you are missing. how is that not positive? and the goal here is to point out that a positive association for joker exists. the existence of negative associations does not negate that.",analysis,AI pre-labeled; reviewed; Hacker News item 50147930
+"One of the difficulties that I've heard described is that the United States is the world's best producer of castle technology and has been for the last two centuries.
+
+It has been the best, second to none for a long time. If you want the best castle, you buy it from the United States. Other countries may also sell castle technology... though as Norway noted it doesn't have to buy the best (and most expensive) from the United States, it just has to buy something better than Russia's. ( https://www.reuters.com/business/aerospace-defense/norway-se... )
+
+... And then with the conflicts in Ukraine and to a lesser extent Iran the world has realized that while we've had the best castles for a long time, they're big, expensive, expensive to maintain (and its own hasn't been maintained well) and has the possibility of a switch on the drawbridge that will let it down when the US wants in...
+
+While Ukraine and Russia have rolled up to the battlefield with a cheap cannon that is demonstrating that expensive castles aren't all they're cracked up to be.
+
+---
+
+Yes, you can probably build a cheaper Tomahawk missile today. However, can someone else build a cheaper drone that is even better for the battlefield theaters of the next several decades?",analysis,AI pre-labeled; reviewed; Hacker News item 50148138
+"This reminded me of a moment from Star Trek V:
+""I don't want my pain taken away. I need my pain!""
+~Captain Kirk
+
+https://www.youtube.com/watch?v=9ABLYnvpAso",analysis,AI pre-labeled; reviewed; Hacker News item 50147392
+"Want to shamelessly self promote my self hosted proxy, supports subs and API usage.
+
+Primaily designed as a local LLM ops project, but will definitely do proxying for claude-code, opencode, codex, etc
+
+https://llama-dash.dev",analysis,AI pre-labeled; reviewed; Hacker News item 50148151
+"- a bit unrelated but i had to ask
+
+- your other blog post says https://www.peterp.me/articles/clustering-node-js/ you should clustering for max performance in nodejs
+
+- are you using it in production or do you run multiple docker instances?",analysis,AI pre-labeled; reviewed; Hacker News item 50147884
+"Whatever else is real or myth with regard to these trolly pranking trademark spats, I think it's pretty reasonable to say that the term ""cyberspace"" emerged amidst - or at least adjacent to - a lot of LSD and Grateful Dead tapes.
+
+https://w2.eff.org/Misc/Publications/John_Perry_Barlow/HTML/...",analysis,AI pre-labeled; reviewed; Hacker News item 50147401
+"I don't think the model is needed anymore. I think given the new kind of things that are happening in the AI world, I've been using Gemini 3.8 Flash for a long time, I've been using Claude, Opus 5.5 and Sonnet 5.5 and literally find no reason at all to use SuperPars or SuperLight for that matter.",analysis,AI pre-labeled; reviewed; Hacker News item 50148299
+"Same as code, the llm can generate vast amounts and it seems to work, but no one understands the documentation Claude Code, or other LLMs, produce. Essentially, garbage because, to make use of it you need to be able to understand it, usually at a cost (unquantified), and if only LLMs do then what is the point?",analysis,AI pre-labeled; reviewed; Hacker News item 50147415
+"I was just checking them out as a possible place to move my DNS names to. Looks like it's a whopping $0.50/month if you use their nameservers per address, plus $0.40 per million queries, prorated, So probably tough to spend more than $1 a month on without having Google-scale and spending way more than that on servers.",analysis,AI pre-labeled; reviewed; Hacker News item 50147786
+"I'd love to do something like this, or use API keys, but I still don't understand how people justify the cost of using API keys vs. subscription.
+
+I tested it once, I'm in on the 20x claude max ($200/month) and I either max my weekly limit every week or come really close. But it only took 2-3 days to hit $200 spend with api keys.",analysis,AI pre-labeled; reviewed; Hacker News item 50147314
+"Sure you can make Claude produce documentation & code that is readable. You need to steer it and show it how you want it to write. When it gets it wrong, find counter examples so it can learn the style you want. Otherwise it's going to write what it thinks is best. What is best for LLM comprehension and efficiency is not necessarily best for the human.",analysis,AI pre-labeled; reviewed; Hacker News item 50147689
+"I thought superpowers was the coolest thing for about 1 day. Then the endless approval prompts and huge time increase killed it for me. I'm finding Opus 5.5 does a pretty thorough job without anything like superpowers. What would I be getting from superlite that Opus 5.5 doesn't do by itself already, and are those things actually important, or do they mostly only serve to give you peace of mind?",analysis,AI pre-labeled; reviewed; Hacker News item 50148029
+"As of this comment you have 26 comments out of 206 total on this comment section, more than 10% basically all spreading FUD to try and make other people as miserable and pessimistic as you. I'm not sure what your motivations are but I'm glad we have people like Grant on the other side trying to keep a positive outlook on life and the future, and I hope all you eternal doomers who constantly try to bring others down with you find joy as well.",analysis,AI pre-labeled; reviewed; Hacker News item 50147864
+"You'd have an understandable point for a western company who likely had a revolving door of key developers and leadershhip. But Japanese companies have pretty high retention rates, and Nintendo has some of the highest of all Japanese companies, period. Not just in games.
+
+So in this case, I imagine almost all the writing staff present for Zelda in 1986 were present to establish such a timeline some 15 years later. And much of them were probably still around 20 years after that working on the upcoming remake. I'm truly envious.",analysis,AI pre-labeled; reviewed; Hacker News item 50148358
+"The original context was this:
+
+> oh please, the US economy literally runs on slavery
+
+Also
+
+> 17% of the industry being done by slave labor is obviously very significant.
+
+That's not what the stat says. It says 17% of the prison labor did that job, not that 17% of the labor for that job was prisoners.
+
+Here's the quote for ya:
+
+""...agricultural work constitutes a
+greater percentage of work assignments, such as
+in Arkansas, where 17 percent of job assignments
+for incarcerated people were in agricultural work in
+2021.""
+
+But tell me again how I'm nonsensical.",analysis,AI pre-labeled; reviewed; Hacker News item 50148014
+"I haven’t watched the video, but likely it hasn’t answered a question: why math? Why not physics, neuroscience, philosophy or history? People claim math is both philosophical and art, but is that a sufficiently good reason to pursue math as opposed to other careers?
+
+A lot of arguments seem to try to cling to the “old” way of doing math: staring at the blackboard for hours, wrestling with papers and papers of equations, and do forth. Well, chess players went through a similar transition period: carrying books of openings and such, to chess database, to chess engine and now AI. And at no point I hear chess players complaining that we have to study chess the old way.",analysis,AI pre-labeled; reviewed; Hacker News item 50147635
+"On the cybertruck, I was going to suggest that's a function of demand, but actually I see there are substantial wait times for these. That might mean they cut factory capacity though, I haven't tracked it super carefully.
+
+If Optimus is in use at factories in 2029 then it will absolutely be able to produce more than a thousand robots a month by the end of 2031, just using any sort of geometric production curve as a swag.
+
+As to users, I think if it can provide home services, they're going to sell a ton of them.
+
+As to Elon's forecasts, yes, double them at least. And, also, he's mostly right historically, if delayed substantially. I think there's near infinite demand for $1/hr robot labor in the US.",analysis,AI pre-labeled; reviewed; Hacker News item 50147974
+"Before, I would write an emulator of an old console. On weekends I would debug why the game shows garbage instead of a picture, compare opcodes with the documentation and learn from my own mistakes. And the emulator itself would be valuable as an artifact, because it holds the experience I accumulated.
+Now the same thing can be done much faster. Learning from mistakes disappears, only high-level templates remain which looks similar to the academic approach.
+
+On the other hand, you can set up an LLM so that everything goes gradually and you learn like you used to. But that's more like what I would call pet archaeology or something... Learning the tools doesn't give as much benefit anymore, it's more like a reconstruction of past events.",analysis,AI pre-labeled; reviewed; Hacker News item 50147757
+"The last 20 years of evidence:
+
+Falcon 9 - 2010 - the cheapest, most successful, most reliable, most available rocket in history
+
+Cargo Dragon - 2012 - first commercial resupply to ISS
+
+Model S - 2012 - BEV that started the EV transition
+
+Supercharger network - 2012 - first US wide charging network and still most reliable
+
+Falcon 9 Booster Reuse - 2017
+
+Falcon Heavy - 2018 - Super heavy partially reusable rocket
+
+Model 3 - 2018 - best selling EV next 3 years
+
+Crew Dragon - 2020 - only US NASA approved crew craft to LEO
+
+Starlink - 2020 - only successful orbital ISP
+
+NACS - 2022 - charging plug standard opened and then adopted by majority of US BEV manufacturers
+
+Model Y - 2023 - First BEV to be world’s best selling car
+
+Starship - 2024 - first catch of an orbital class booster without landing gear",analysis,AI pre-labeled; reviewed; Hacker News item 50147409
+"There's a bug causing NSStatusItems in MenuBar<->WindowServer to enter a continuous redraw loop after a number of hours of uptime which pins CPU at like at least 10-20%. I filed it as FB24528844
+
+ 1. WindowServer sends the app a stream of remote-context notifications (CGSDatagramReadStream::dispatchMainQueueDatagrams -> remote_context_notify).
+ 2. AppKit responds by rebuilding the status-bar window's tracking areas and structural regions (_NSTrackingAreaAKManager _updateStructuralRegionCreateIfNeeded / displayCycleUpdateStructuralRegions, including NSButtonCell _hasRolloverAppearance for the menu bar rollover effect).
+ 3. That dirties the window, so UpdateCycle/stepTransactionFlush commits a CA::Transaction to the WindowServer.
+ 4. Another notification arrives and the loop repeats at display refresh rate.",analysis,AI pre-labeled; reviewed; Hacker News item 50147393
+"Swift (2014) and Kotlin (2011) are huge because of iOS and Android, respectively. C# came out in July 2000, does that count? However there are post-2000 languages in real use that aren't developed or annointed by huge companies, some started as solo dev projects or academic projects.
+
+There is a lot of news right now about AI writing proofs in Lean (2013.) Lots of people rely on Elixir (2012) and Gleam (2016) is up and coming. I wouldn't give up on Scala (2004) just yet, it's really one of the best languages out there with some great libraries and runs on the JVM. You could argue that Reason (2016) and ReScript (2020) are just dialects of OCaml but they are industrial strength tools that people rely on in production.
+
+...and don't even try to take Clojure (2007) away from any hands that are not truly cold and dead.",analysis,AI pre-labeled; reviewed; Hacker News item 50147497
+"> - 1948 - Egypt, Syria, Jordan, Iraq, and Lebanon invade Israel
+
+No. Israel invaded Mandatory Palestine. The arab states invaded and took Palestine. Egypt took Gaza. Jordan took the west bank. Israel took the rest. And the partition plan from the UN was never implemented. #conspiracy #tooEasyToBeCoincidental
+
+> - 1973 - Egypt and Syria invade Israel
+
+No again. Egypt invaded the Sinai, its territory as recognized internationally, yet taken by Israel in 1967. Syria invaded Golan Heights, again its own territory as recognized internationally even today, yet taken by Israel in 1967.
+
+> - 2006 - Hezbollah attacks Israel
+
+No again. Israel invaded Lebanon in 2006. Hezbollah demanded its soldiers back per agreement, and Israel was breaking its agreement. Hezbollah invaded Lebanese territory, given to them by Syria, yet occupied by Israel.",analysis,AI pre-labeled; reviewed; Hacker News item 50148346
+"> If the business proposition is being ""cheap"", then they will have to undercut everyone
+
+Consider a market with three suppliers.
+
+Supplier A charges $12.00 and is widely regarded to be The Worst. Their only support is a broken chatbot with a tendency to lock your account at random and their UI is full of dark patterns that trigger hidden fees.
+
+Supplier B charges $12.50 and is widely regarded to be a reasonable operator that will rarely screw you and offers basic no-frills service.
+
+Supplier C charges $20.00 and is widely regarded to be a reasonable operator that will rarely screw you and offers a bunch of convenience features and integration with WordPress or something.
+
+Which one are you going to choose? Maybe C if you want the convenience features, maybe B if you want the lower price, but never A, right?
+
+Now suppose you're B and you want to pick a name that emphasizes that you have a lower price than C.",analysis,AI pre-labeled; reviewed; Hacker News item 50147778
+"As someone who has a small child, and lives in a city with properly accessible public transportation (Tokyo), I can tell you that NYC's subway system fucking sucks for accessibility. They only have elevators every 2-3 stops, and often those elevators are broken. It's an embarrassment.
+
+Sure, you can use buses, but the buses are way less frequent than the trains, and you're waiting for them out in the cold, heat, or rain, often with no cover and no bench. If there's service on a subway line, it's possible there's no accessible route to where you're going, which could require a few bus transfers as an alternative.
+
+Access-a-ride is a great concept, but one that shouldn't need to exist, and doesn't cover the full spectrum of folks who rely on accessible transport.
+
+I'm a huge proponent of public transportation, and haven't owned a car in 15 years, but let's not give NYC a pass on this. Every station should have at least one elevator, and should be fully accessible.",analysis,AI pre-labeled; reviewed; Hacker News item 50147376
+"when I was there, the bigs were 4 gig, ~2009±1
+
+for others context, bigs were the compiled binary deployed to a server, a composition of BB terminal functions, bin packing style",analysis,AI pre-labeled; reviewed; Hacker News item 50148257
+">The lab agreed to sponsor a workshop at the institute for what Dr. Tao said was $60,000 to $70,000
+
+That's a lot less than i expected. The value he gave back to them should be at least 2 magnitudes higher.",analysis,AI pre-labeled; reviewed; Hacker News item 50147654
+"> The 6502 can't actually address more than that.
+
+Unless you use bank switching, which historically a lot of 6502 machines did use (e.g. Apple III/IIe/IIc, BBC Master 128, Commodore 128, Commodore CBM-II, etc)",analysis,AI pre-labeled; reviewed; Hacker News item 50147680
+"Reading up on some of these systems is wild. For example THAAD munitions are wildly expensive, but also a ballistic projectile that physically knocks hypersonic missiles out of the air in flight 200km away. Ultimately $13 million seems reasonable to save a few city blocks in a major city. It just doesn't make sense to use against small arms like disposable drones.",analysis,AI pre-labeled; reviewed; Hacker News item 50148126
+"> Starting Oct. 16, exporters must register with the authorities if they plan to transfer intellectual property to overseas entities, grant licenses to foreign companies to use Chinese technology, or transfer ownership of Chinese technology to any foreign party, according to the ministry.
+
+@dang for some reason, the original link was instantly [dead]. Is epochtimes a banned site?",analysis,AI pre-labeled; reviewed; Hacker News item 50148141
+"Agentic coding lets you build more things in less time. Companies have responded by ordering product teams to pick up the pace of releases. But the bottleneck isn't coding execution, it's choosing what to build and verifying that what got built doesn't suck.
+
+I think this problem will be solved. Frontier models recently learned how to do 3D really well (Astra was first on 3D; Opus-5.5 nailed it weeks later). How long before they get trained up on product management? It won't be long. Sorry.",analysis,AI pre-labeled; reviewed; Hacker News item 50147288
+"Scala is its own worst enemy in this respect. It’s both too close to Java and too far.
+
+Too far: there are several dialects one can use with it e.g., I can speak Haskell with Scala grammar. Unlike with Java there is no central Scala dialect, so reading/maintaining a Scala codebase can be a challenge.
+
+Too close: its type system, as advanced as it is, is still stuck in Java’s inheritance and all its limitations. Traits, for example, are not runtime components, they dissolve into the hosting class’ single object, giving up the independent identity and flexibility of runtime configured composition. And the Scala 3 `exports` feature that departs Java’s inheritance is just forwarding, not true delegation; it is the inverse of traits: it trades self identity for independent identity (no late-bound self that comes free with impl inheritance).",analysis,AI pre-labeled; reviewed; Hacker News item 50147430
+"In spite of this, I actually kind of did build a ""software factory"". The main reason why was because there is a number of things I build that really are just means to an end, tools where I could not give a shit less if the code sucks or anything as long as it does roughly what I want. This stuff will most likely never be posted anywhere, but that's not the point, because it still has quite a bit of utility. Having a ""software factory"" to build and maintain it seemed a lot less annoying than being a ""meat proxy"" all day just to maintain some tools that aren't very important.
+
+I could be misunderstanding what a ""software factory"" is but I think whatever I have done fits the criteria. I have a custom agent that goes around implementing software and maintaining private repositories completely autonomously and I can communicate with it using issues and comments.
+
+It seems like a useful pattern, just maybe not what people had in mind. I think people figured that you'd build an AI Microsoft or something. I don't think that's true because most of what a company like that does isn't really software engineering anyway, but there is probably still something to this pattern.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147494
+"I hope you are right, but I think there will be a lot of reshuffling nevertheless if only because the shape of the work has changed so much. A lot of people who hated developing software will suddenly find a passion for it, a lot of people who were good will find they can't stand this new world.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147578
+"Its pretty easy to put together a microservice framework, along with some API spec driven tools to generate android and iOS clients then just work on UI.
+
+I dont think the author is right to say it because of all the vibe coding that this is pointless.
+
+I think it might be pointless because we are witnessing in essence the destruction of computing itself. And writing code with or without AI will eitehr not be possible (hardware unavailable) or become so unsavory and unenjoyable (jobs nobody wants) that computing for any reason but subsistence (or world domination) will die.
+
+Its even conceivable that the platforms LLMs generate all this code for (the web, mobile, desktop) will die.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147633
+"For a personal experience I 100% agree. Where I'm not sure where I land is when the problem solving is a job people are paid for. I wouldn't expect someone to be paid to enjoy the process of solving a problem, I'd pay them to solve it.
+
+There are plenty of things I enjoy doing, but I try to do them as often as I can for the love of it rather than because someone is paying me to enjoy the process.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148118
+"I think you need to add another adjective in there to describe this group that feels like their rights are taken away by Apple.
+
+I used Linux as my daily driver for many years. I enjoy deeply tweaking my system. But I switched to macs when life got busier because I didn’t feel particularly keen being forced to tweak my system constantly. I’ve personally not felt constrained by macOS, so maybe I’m not as erudite of a config wizard as I thought or because I let things like nix-darwin and home-manager do the heavy lifting. But that’s more an aesthetic choice than one made to achieve specific functionality. Maybe I do have more patience for configuring at the whims of others, as my nix setup breaks every major release whereas my previous personal dot files manager written in posix shell does not.
+
+Most the people I know that espouse things similar to the parent use Linux not because they were constrained by another OS, but because it appeals to their ideology. They’d rather be on OpenBSD if they could stomach it. That’s fine and good, but should be transparent.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147571
+"By far the nicest neighborhood in town is ours, the one with no HOA. We have the most sports fields and courts, playgrounds, trails, dog parks, skate park, etc. No HOA, so we don't hoard, all facilities are shared to all. But across the street for us, making it a nice neighborhood.
+
+Also, we have no HOA, so there are no ridiculous restrictions, which means the neighborhood has character. Every house is painted in unique colorful styles, instead of endless shades of dull beige. Every house has unique vegetation choices based on owner preferences so it is fun to walk around and sightsee. We have no HOA, so there are zero restrictions on decorations, so we are the Halloween capital of the county (coming up in a few weeks!)
+
+It's a vibrant unique neighborhood full of facilities and character, precisely because there is no HOA to destroy it.
+
+A similar neighborhood across town (we're a small town so across town is just a mile away) has a HOA, every house is a dull shade of beige and they have very harsh rules, like HOAs of course do, on decorations, so Halloween and Christmas are DOA over there.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148286
+"if the reason to do so was the ad revenue, then i definitely agree. but in terms of me happening on to your ideas, now is perhaps actually better than any time in the past. i also do pay for writing à la substack",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147815
+"I moved to NameCheap many years ago precisely because GoDaddy was such a miserable company to work with.
+
+Disappointed in the VC move but I don't have any complaints at the moment. I have had good experiences with Cloudflare for other services so feel predisposed to them.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147490
+"Well we have been paying people for the pure pursuit of knowledge for its own sake since the scientific revolution, which is kind of the material base for capitalism, so I don’t think your argument holds much water. Why knowledge and following curiosity facilities general prosperity is maybe an open question but that it does is inarguable.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148224
+"These companies have goosed their profits via slippage and friction for customer support because they built the systems. Humans don’t have the time nor energy to fight Byzantine systems. Personal agents help me buy what I want without the upsells, cancel when I want without forgetting. They are a balancing power in the future but upsetting the corporate owned control. Therefore they will try to ban them.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147777
+"> Imagine waking up one morning to find that an alien technology has solved the problem you had dedicated your life to (and many more to boot.)
+
+I would be thrilled! My only worry would be how to sustain myself financially if my expertise is no longer needed - worries like this I can definitely understand. But the simple fact that the problems I care about are getting solved? Awesome, more of that please!",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148467
+"LLM’s are terrible at following the rules of Chess when playing a game. Determinism isn’t helpful because valid moves are so dependent upon the total state of the board.
+
+Programming state gets way more complicated, but code is generally written to help people understand it greatly simplifying the process. Feed in “cursed” code leveraging obscure language features in creative ways and LLM’s and most people fail.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148142
+"Love the sentiment, I think rather than new labnguages I would like to see forms of obfuscation that cannot be reversed and maybe encryption.
+
+Also I been thinking about how we can (re?)create offline open source or fully obfuscated OSS online that has some kind of tooling to prevent exposure to training.
+
+It would be interesting if there was a metaphor we all understand but we could repurpose for this. Undoubtedly new CPUs would need to be made.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147590
+"Along this line of thought. I think the ""internal tools"" product category is dead. I remember trying to deploy one of these things - Tooljet, Retool.. I can't remember exactly, and thinking, maintaining the stack and the tools is not worth the effort. But then I didn't work in a big enterprise company. So maybe others had a reason or manpower to maintain them. Now I doubt anyone wants a programmable drag and drop form builder - aka no-code/low-code software factory.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148399
+"Most presidents in the US are puppets of their party and contributors. When you vote, you are really voting for the party, since going outside what the party wants will generally get you nothing in the long term. Sure, it’s easy for a president to issue executive orders and temporarily get what he wants, but they can just as easily be overturned by the next president. Great presidents are great because they were able to make changes that will last many years after their presidency ends.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147385
+"I agree. I think the problem is shared context. A good human writer estimates their audience's understanding and writes close to their level. The llm doesn't know this for any particular audience and falls back to a static trained baseline or some other incorrect level.
+
+I hope we'll have some kind of good paradigm to do lora style learning or maybe an output subagent or something so we can better calibrate the output style in a fuzzy way. In context learning (instructions, memories) doesn't currently seem that effective.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147436
+"Yeah, I think it was a huge mistake and restraint to reveal an official timeline. But it's something they did and something to accept happens.
+
+And then something to question once again when Breath of the Wild/Tears of the Kingdom cannot make its mind up about such a timeline. somehow being so far in the future that all timelines converge and all history is lost. Basically disregarding the idea of a timeline altogether. ToTK can't even commit to really being a chronological sequel to BOTW if you break down details in the game.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148267
+"I am confused why this is considered a black swan event. Does AI take the joy out of mathematics research? Yes. But universities are not laying off mathematicians just because OpenAI has released some proofs. The proofs were never the point of mathematics, it is the understanding behind the proofs, and applying that understanding to solve real world problems.
+
+Now consider a computer science major in college who knows that he won't get a job when he graduates. Consider fresh graduates who thought they would have lucrative jobs but had to take up jobs as Uber drivers. To them AI is a black swan event. That's who I have sympathy for.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147370
+"verify the proofs and explain what the proofs allow us to do
+
+get the peer review engine going
+
+I imagine its happening but I also see room for coordination because I don’t hear about it happening, and its only been a few weeks
+
+I don’t trust that academics will pivot in a few weeks and I don’t trust that this peer review is occurring on a big enough scale
+
+Where could I go to understand whether something useful is coming from these AI proofs
+
+Everything I’ve heard so far is debating about how the proofs came out and what academics are supposed to do with their lives now
+
+I and many others want to see what utility these probably solved problems give us",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148498
+"In the essay Hackers and Painters it was mentioned that there is a project approach to learning and an academic one. The idea of pet projects is killed by language models, because what you did on weekends, a language model now does in half an hour. So you can try the other approach: maybe you should have more general knowledge right away, best practices, so more of an academic approach. In the academic approach you learn from the best reference examples, develop taste, and only then recognize what is good or bad and build your own. But here too you can see that LLMs iterate much faster, while you have to collect patterns for years, and you will also always be in the role of the one who is behind.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147418
+"I think it would be much more of a change now, if we ban LLMs entirely and force everyone to do everything without any form of chatbot to help them. I would sympathize with the people who can’t handle this change, but it’s gonna happen, I think they should get with the times and adapt to it. I think it is wrong of you to try and prevent this change.
+
+Actually I think we need to go further, we need to make an example out of the people who spent a trillion dollars building a product that is universally hated to try and make a buck. They need to be completely ruined financially, now that would be a real challenge, I sympathize with those adversely affected but it needs to happen if society must progress to a better place where humans flourish more.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147525
+"Constructors are dedicated language-sanctioned functions that transform (data inputs X) into (type/object Y).
+
+The given X should be subjected to the requirements necessary to create a valid Y. If the requirements fail, you have two main choices: Create an invalid Y, or reject X & return an error in however you want it to be returned.
+
+The former leaks said rejections throughout the rest of the type's/object's code, & makes more work for me to parse through where & how the problem occurs.
+
+The latter option creates a cleaner system altogether, due to rejecting sections of invalid states. Not all will be rejected, but the fact that some do get rejected already makes its workload comparatively lighter than the former.
+
+I know which my lazy bum would pick.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148152
+"Problem solving, critical thought, logic, creativity are always going to be valuable.
+
+In a way ai is turning programming more into maths - you write a natural language description of the problem - a proof / program - and then translating that into machine code is a lot of work / abstraction. For example look how much it takes to turn relatively simple mathematical statements into lean. That I guess is going to be the future.
+
+I would encourage everyone to learn the fundamentals still because you will need discretion and to be able to think at a more abstract level.
+
+However its funny that its only NOW dehumanising/demoralising now when its white people losing jobs to the capitalist machine in the imperial core, and not the slave silicon miners making gpus for gamers.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147733
+">However, I do believe that when a couple problems get solved that massively benefit all of humanity — e.g. a massive cancer breakthrough, etc — a tipping point will be reached and public opinion will reverse and enthusiastically embrace AI, and will accept not only diminished personal meaning but outright technocratic rule.
+
+Is solving cancer worth ceding human meaning and human autonomy to the machines? I haven't seen anyone ask this question but it seems the central issue of this revolution. Personally, I don't think it is.
+
+Perhaps machines will lead to a perfectly homogenous society completely absent of negative valence whatsoever. But if every experience is also devoid of any personal meaning, what's the point? The optimal human state is not one of peak hedonism.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148462
+"> But that's to misunderstand what science is for, which is to expand human knowledge
+
+I agree ideologically and aspirationally but I don't believe it's the economic reality of how and why most science is actually funded (and I think you agree based on your comment about not making any money).
+
+> But if you care about programming itself
+
+I'm...not so sure I do any more? At least, not any more than I care about using Java over Python, or C++ over Java, or C over C++, or ASM over C, or machine code over ASM, or an abacus over machine code.
+
+> nothing has changed, it never can
+
+We now have programs that can write any program 100x faster and better than even the best humans and solve the hardest math problems known to humankind that have stumped the greatest minds the planet could produce for decades. That, to me, is a change with profound implications for understanding the nature of programming.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147552
+"This is well stated wisdom.
+
+It also applied/showed half a century ago. Software is very developer dependent.
+
+What that reveals isn't encouraging.
+
+I think it is fair to say, the big order bits of software design quality - in general - have moved very little. Certainly less and less over the decades.
+
+I do believe that where quality is very highly valued, there has been slow but valuable progress.
+
+But everywhere else you look, software systems pervasively demonstrate obviously poor design.
+
+That this may involve the unavoidable problems dealing with complex underlying systems, as much as it represents the application developer's lack of taste, isn't an excuse. It just demonstrates that poor design permeates the stack.
+
+This is not an argument for perfection, but an observation that even slow mostly-monotonic progress has proven to be out of reach. So far.
+
+There is a fundamental problem being unrecognized and unsolved.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148368
+">I'm not convinced humans will be better at this than LLMs.
+
+they don't need to be. Any scientist is already surrounded by tools that are better than they are at anything. A scientist from 200 years ago would have the same existential shock if they see how a modern scientists works.
+
+But that's to misunderstand what science is for, which is to expand human knowledge. And a tool by definition can only ever change how you do this, not that you do it because you understanding it is the point. When people say learning to program is now useless, what they really mean is it might not make them any money, or using the AI is faster as an instrument. But if you care about programming itself, about you understanding programming, nothing has changed, it never can. And the smartest AI in the world can always assist you, but only that.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147308
+"Cyberspace is defined with the word ""hallucination"", and Gibson spent 1977-1983 writing his short fiction and first novel on the subject. The degree to which he was influenced by psychedelic culture is open to debate, but I agree that it was non-zero. I think Grateful Dead tapes is your own projection, however. Bob Marley is more likely as muse-ic.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148379
+"> > But don't you worry, you can make more money overseeing the factory, or selling people on how good this bag is, and explaining that to them.
+
+...Or you can keep working on your handbags & refine your styles & qualities, using your expertise & experience as value adds.
+
+The existence of the factory did not wipe out the boutique craftsman.
+
+> > A craft I enjoy doing has been taken away from me, I should be allowed to mourn, I don't care that I can do something else since I never liked doing it in the first place.
+
+A craft wasn't ripped away from you: The process still exists as-is in its prior form, like the woodcarvers of yesteryear. Nothing that you desire (the process/journey) has been lost. It still exists.
+
+The only step required to restore it is to ignore the contributions of others that use it. And your desire to do so will be valid & consistent.
+
+But similarly as to how you want to be validated on your feelings of 'the craft being ripped from you', you don't get to impose that belief onto others to rip their use of LLMs away from them if they want to do so, lest you want to invalidate their feelings as a consequence.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147672
+"> Joining “thinking critically” and a tool that has no truth basis is concerning. You may as well put numbers inside a raffle box and just take one out instead of using a calculator.
+
+LLMs can have as much truth basis as humans have. We humans have fallible memory, all manner of cognitive biases, varying degrees of deceptive tendencies, misunderstandings, heartfelt beliefs in things we cannot prove...
+
+And nonetheless, looking at art, reading books, talking to children, interacting with nature -- can all prompt us to question our previous assumptions and productively challenge ideas we might have otherwise thought settled. Seeing these different perspectives, however grounded or not they may be in truth and physics, is part of critical thinking.
+
+A calculator will only get you so far. If you're looking for LLMs to tell you the ""correct"" answer, then you may be disappointed. But if you want leads to follow, ideas to consider, pointers to existing research, experiments to run, then it can be very helpful, similarly to talking to a very knowledgeable colleague. In the end, so far at least, it's still up to the human to make good decisions, based on evidence.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148202
+"It's certainly possible that ""the special sauce"" that provides human consciousness and sentience (that I believe is not there for LLM-based AIs) provides some key ingredient to some forms of intelligence (particularly when it comes to originally) which LLMs would not be able to duplicate.
+
+For example, much has been recently discussed about how OpenAI's math results, as impressive as they are, remained within ""the convex hull"" of existing math literature. Thus, some have argued that the way LLMs work will keep them squarely within this convex hull, and also there seem to be clear examples from human history where humans came up with breakthroughs that were outside the convex hull of ideas that existed at that time.
+
+There has been a lot of recent debate, both for and against, this idea that current AI approaches are limited to this convex hull. So I'm not going to try to convince you one way or the other, but I do think it is at least a plausible explanation of how/why current approaches end up hitting a wall.
+
+I'll also show my bias which is to say I certainly hope they hit a wall, because I don't understand how anyone can think that humans won't be truly and completely fucked if AI ends up far surpassing human intelligence.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148236
+"I don't know if this will happen in math, but in other fields where computers have outstripped humans (chess and poker, for instance), there's been a loss of creativity, but there have also been other forms of creativity that take its place. There was a period of reeling where we had to figure out what it meant to just be able to know answers to the question that made the game fun, but there's also a moment of realization: just because a computer says something doesn't mean we can't make it our own. Using poker solvers to find creative non-equilibrium strategies can still be fun: the ingenuity comes from using the tools to think out side the box. Or, finding a nicer set of abstractions that explains why a strategy does a certain thing, and then starting to notice it showing up other places.
+
+For math, just because we know a thing is ""TRUE"" doesn't mean the investigation is done. The folks that love math are driven by solving puzzles, and the puzzle is still there, only changed: instead of being ""is this true?"", the puzzle is now ""why is this true?"" Building theories, finding nicer proofs, etc: there is still plenty of room for creativity.
+
+But in the meantime, it really is tragic that so many young minds have had their work stripped away from them.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148306
+"OK. But I ain't using no Turkmenistan VPN. So far as I can tell it just wants me to use one of the browsers it knows, so it can fingerprint me and like the answer.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148116
+"One real limitation is context size. 1M tokens is enough to do a lot, but the Lean graphs they are making are way too big to fit, so an LLM will never have the complete picture.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148083
+"Not so good on slick roads. Besides, I don’t know of any passenger car or light truck that has insufficient braking performance to the point of the tire grip not being the weak point.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147628
+"Moved my domain from namecheap to cloudflare that I use for Fastmail. There was a bit of a song and dance because CF requires you use its own name servers, but I had codex do it for me in chrome. Would recommend.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148022
+"It’s just more convenient to stay in the terminal where I already do a lot of other things. Switching between guis is more of a hassle, since they try to support both keyboard and mouse but often not equally well",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147451
+"I just wonder how this cop got so lucky that he randomly stopped a car with 91kg of meth in it. 91kg!!!
+
+LPR will scan thousands of cars automatically, but he stated in the footage that he chose her specifically. Why?",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147704
+"I do this, but only if the problem is novel or requires deep thinking. Once something becomes second nature, I'll stop thinking about in ""words"".
+
+It's like the minds-eye or ""hearing music"", I can do those but only if I intentionally need them.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147954
+"I can relate to this. I used to code as a hobby (never professionally), but since AI came along, I've pretty much lost interest in writing code by hand. Obviously just one data point, but I can easily imagine something similar happening in fields like math.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148103
+"I am not saying this proudly, but given how important is to stay in touch with others, I would never jeopardize my Gmail account and my Whatsapp account. Understand that using a bot to access your Whatsapp account is against TOS and your account could be suspended.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147489
+"I dont know what the future will hold, but in the past each time technology took over a profession, it ended up opening more doors than it closed. However the transition has always been rough.
+
+I have faith that when AI settles, it too will open more doors than it has closed.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148471
+"I would love to use Lazarus, but the UI toolkit it uses has some very bad accessibility bugs that make it practically unusable with my screen reader. FreePascal's love of syntax diagrams is also a turn-off for me (I've always preferred things like EBNF or similar for grammar notation).",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147800
+"You shouldn't. Maybe you should learn Hilbert Calculus so you can appreciate it.
+
+It's like asking if what someone wrote a beautiful poem but it's in japanese. Maybe hearing about it motivates me to learn japanese, or maybe it doesn't. But as a non-speaker it makes little impression on me.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147623
+"Slowly migrating my domains to Cloudflare as they near expiration. Namecheap's quality and service has downgraded so much in the last several years. It's no longer worth it with the pricing updates.
+
+Cloudflare has been pretty reliable so far. I've been using their services since the beginning.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148474
+"If math is nothing but solving puzzles for fun then I think a lot of people should be very pissed off that they are doing hard labor while being taxed to fund a puzzle hobby group.
+
+Of course I don't believe that math is just fun puzzles. But if it were, then it would deserve to die as a career, AI or not.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147582
+"> However, I have also heard that Russia is a lot closer to collapse than they let on.
+
+I mean it seems like they were until someone just decided to give them huge infusion of money, remove all sanctions passed against them and throw them a huge lifeline. Oh and can't forget ""remove sanctions for oligarchs"".",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147818
+"I think two things are being conflated: whether math will continue to offer exciting opportunities, and whether it will remain fulfilling for those who love doing it today.
+
+Grant is right about the former. But that doesn't address the latter. A field can have a bright future while losing what drew people to it.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148085
+"You can probably build more than ever thanks to AI, but yeah, your career is probably going to be at a disadvantage if talking to people is difficult.
+
+But if, somehow, you can find the right thing to build without talking to people, there is still a lot of building to do.
+
+Good luck, I think we are all going to need it.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147554
+">They have practically infinite investor money to throw at salaries (lost in the noise of how much they are spending on compute) so why not use it for now to reach their goal as fast as possible?
+
+Wouldn't throwing that money into GPU be better because AI is smarter and faster ? So they would reach their goal even faster ?",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147782
+"I let them install the free ISP router a year back when they installed fiber in the neighborhood. I assumed I would swap it out the next day, but I haven't had any issues like back in the day. I love shopping for a nice router as much as the next tech nerd, but decent drop-in home networking seems to be pretty commodity now days.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147914
+"Because you didn't provide a phone number and a government ID? All domain names are legally required to have this level of verification by ICANN rules, but it's only enforced by random checks. Also any contract with someone whose identity is completely unknown is effectively void, since there's no way to prove the needful in court.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148057
+"ANGLE is also used by Chrome and Firefox for WebGL2. It includes a translation layer from WebGL2 to Metal.
+
+The decision not to support OpenGL is probably because the API isn’t actually very modern and requires the driver to reconstruct what the user code wants. The decision not to support Vulkan however is most likely a political decision.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147853
+"In the article, the associations that appear to be causing the most problems, at least in Florida, are condominium associations. So it might be worth reconsidering whether filling a ""need"" for such governance ends up being more trouble than it's worth--at least if it goes beyond just maintaining the common elements (which it seems like condo associations in Florida do).",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147480
+"What? This is like a drive by shooting or something. Several PhD students almost certainly lost months of work, and others considering a PhD will have more doubts. Those problems aren't necessarily important because of the solutions, but because mathematicians can make unique contributions to mathematics in the process of solving them. LLM proofs haven't created any new mathematics techniques.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147808
+"""Don't fear change"" is a religious statement, no different than ""never accept change"".
+
+Imagine I am 200IQ, and I can solve things you can't comprehend.
+
+You appear to be saying I should this be able to run any system, including the entire United States fed govt, and anyone who even questions if that may have bad effects should ""not fear change"".
+
+The industrial revolution was Change, but so is cancer.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147461
+"There is more to life than outcomes.
+
+Would sports teams have as many fans who enjoy their games, if all the humans were replaced by robots? Your team may win, so I'm sure you'll be happy with the outcome, but maybe something got lost?
+
+I for one have always felt inspired when reading about remarkable human achievements. To think that those might be coming to an end, replaced by AI, takes the humanity out of those stories.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148115
+"It's not just the cost of a GPS chip, it's the custom turbofan engine, the other guidance system components, active radar (in some units) and a guarantee that you can keep the unit in a tube for years and ensure that it's gonna work when you need it.
+
+Plus low volume production volums and long times needed to manufacture it.
+
+Could it be cheaper? Yeah I'm sure. But the US Gov is willing to pay for em so why drop the price?",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148025
+"Well, had the officer not been lucky, he'd've opened the trunk and found nothing. The stop would presumably end there¹, and so too would any discussion of the legality of the stop unless the person whose rights had been violated had the time and resources to pursue the violation ""on the principle of the matter""… not something I think most people are going to have the resources to do.
+
+So I wonder if we could be seeing a bit of survivorship bias.
+
+¹though with cops you never know",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147754
+"This assumes AIs will become more capable than humans in every way. If so, then yes, there's little point for people to be part of the discovery process other than to tell the AI what to investigate next.
+
+But I think a more likely scenario is that we don't solve ""general intelligence"" and AIs remain these incredibly capable ""tools"" that can solve navier stokes but completely lack sense in other situations.
+
+In such a scenario there is considerably more room for human creativity.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148451
+"I think math will go the way of biology. Biologists enjoy untangling the infinitely complex mechanisms of life, including the brain, and win Nobel Prizes for discoveries like ""how water enters a cell,"" rather than ""constructing the first-ever cell capable of absorbing water.""
+
+No biologist has ever complained, ""Gee whiz, it's so unfortunate that we already have a brain to study. It's all so meaningless! It would be so much better if we had to construct the first-ever brain from scratch.""",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147337
+"I don’t know…
+
+I’m really enjoying the software factories that I’ve built lately.
+
+You can tell me they’re a waste of time, but man are they ever good at what I need them for.
+
+And it’s keeping all my code standardized, and all my repositories running the same way… I’m really enjoying working with them.
+
+Without them, AI just sort of solves the problem anyway it wants to in any given moment. Things get really chaotic.
+
+I basically just use them to enforce standards and consistency between similar projects.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147665
+"> Buying into a ""little club"" and agreeing to pay your share of expenses only works when everyone participates. If not, your neighbors are just paying upkeep on your property; why should they have to do that?
+
+Neighbors in a HOA are very clearly never paying upkeep of your property, that's is nonsense.
+
+A condo association is a whole different ballgame, since there is legitimate shared structural walls, roofs, elevators, etc. But single family home HOAs, there is nothing the HOA does to maintain individual homes.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148157
+"Tailscale makes Aperture available for free, and while it's not something you own, it is in your tailnet, so at least you have a certain amount of control over how things access it.
+It gives a nice view of what agents are doing, with lots of configurability and extensions, and the team behind it has been updating pretty steadily.
+
+I happen to be working on an extension to Aperture, so I have my own reason to promote it. But I do think it's a nice easy solution, and I promoted it to people before I was extending it.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147631
+"It’s math. Math is nothing but solving puzzles.
+
+Mathematicians usually care nothing about application of their work. Working on interesting problems is their only motivation. Practical applications are almost always happy accidents.
+
+This goes back to the hope that robots would do the laundry and the dishes and the cleaning up so we could write and play music, create art, and solve mathematical problems.
+
+Instead the AIs are doing all of that leaving humans with only the dishes and the laundry and the cleaning up.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147478
+"(meta commentary) 
+really gnarly word choice: ""drop"" in ""they're going to drop the real prices in your lab""?
+
+I took your meaning as ""they're gonna drop [a bad surprise on you by raising] the real prices""... so at least it's not quite as tortured as the ambiguous ""support for version N dropped today"" (where you often can't even infer the direction from context).
+
+this isn't just a tangent, I'm having trouble understanding the point you're trying to make, which hinges entirely on deciding if you meant ""drop"" literally",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148168
+"Until AI agents are embedded in glasses and everyone gets comfortable with sending their conversations to AI, the smartest person in the room is still going to be the smartest person in the room because they say smart shit. Or until the dumb guy types into their phone and says smart shit. Given the pushback to Meta's glasses, I think that'll be a differentiator for a bit longer still. Even before LLMs, you could check Wikipedia and different rooms treat the people that do that in different ways. And then there's the ""Don't be a meat proxy"" movement.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147634
+"Ideas are easy to generate. But vision and dedication can't be faked nor programmed. You really need to believe in a cause to make choices sometimes that won't make financial sense or any sense to anyone else except you. An AI will only optimized for what it's trained to do, and that's usually optimize for maximum shareholder value, for example. An AI also doesn't really care about anyone except itself, so many incidents have proven that. Not that it can really ""care"" like a human can, to begin with. I'm all up for AI but this isn't the hill to die on.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147990
+"Any of the big ones should be fine. What I would recommend is finding non-imageful ways to accomplish tasks. This will be more reliable and consume far fewer tokens. (I'm assuming by computer use, you mean the kind that takes screenshots and drives the mouse/keyboard)
+
+Blender has a python integration, though I have only toyed with it once or twice myself. This would be what I look at first if/when I get into Blender again. I imagine one still needs screenshots/renders with Blender, but not to drive the computer as much as close the feedback loop for implementation-outcome.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147891
+"I've never heard a particular reason why the Millennium Problems were of special interest. They had resisted solution despite significant effort, but I don't know if Riemann or Navier and Stokes had ever singled those out as especially high priorities. They started as ordinary problems and became known for their durability.
+
+So I'm not sure if it's something we should expect from a machine, just because we don't expect it from mathematics either. Maybe the machines will interrupt that process because we've changed how we go about looking, but perhaps not because old problems are solved.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147641
+Are you saying no one is trying to do exactly that?,reaction,AI pre-labeled; reviewed; Hacker News item 50147316
+So what exactly are you going to offer beyond what near future LLMs will be able to do?,reaction,AI pre-labeled; reviewed; Hacker News item 50147646
+What if the consumers of software are those writing it? Isn't that what usually made software great?,reaction,AI pre-labeled; reviewed; Hacker News item 50147294
+"Thank you.
+
+Would it need a standard bearing on only one side of the sprag clutch, or should I double them up on both sides?",reaction,AI pre-labeled; reviewed; Hacker News item 50148251
+"> Regulated fields - another clueless poster lol
+
+Out of sheer, idle curiosity: were you actually laughing when you typed that out?",reaction,AI pre-labeled; reviewed; Hacker News item 50147592
+"Great work on this, had a blast!",reaction,AI pre-labeled; reviewed; Hacker News item 50147879
+Me too. Not a great way to grow up,reaction,AI pre-labeled; reviewed; Hacker News item 50148260
+Wow someone made the youtube ad game!,reaction,AI pre-labeled; reviewed; Hacker News item 50147905
+no one wants to see anyone do math lol.,reaction,AI pre-labeled; reviewed; Hacker News item 50148366
+Thank you for translating my hyperbole.,reaction,AI pre-labeled; reviewed; Hacker News item 50147986
+"Thank you very much, you skipped the main part.",reaction,AI pre-labeled; reviewed; Hacker News item 50148056
+Thank you! We've got even more updates planned!,reaction,AI pre-labeled; reviewed; Hacker News item 50147561
+"In Spanish, they say ""guau"" (pronounced like ""wow"")",reaction,AI pre-labeled; reviewed; Hacker News item 50148327
+Which is exactly why this human does not enjoy Forth very much.,reaction,AI pre-labeled; reviewed; Hacker News item 50147420
+Exactly my first thought. Pretty insane that this is real life now,reaction,AI pre-labeled; reviewed; Hacker News item 50148206
+Um…us devs have been whinging with the best of them thank you very much.,reaction,AI pre-labeled; reviewed; Hacker News item 50147919
+Very interesting to see what the streets of a city looked like 200 years ago,reaction,AI pre-labeled; reviewed; Hacker News item 50147443
+Great game. It took me way too long to figure out I could use keyboard to control the positioning instead of mouse.,reaction,AI pre-labeled; reviewed; Hacker News item 50148232
+"Wow really? I didn't know all pure mathematicians were elitists
+
+You are right, we should get rid of their profession",reaction,AI pre-labeled; reviewed; Hacker News item 50147739
+"Interestingly, in practice different languages tend to have markedly different common representations of animal sounds.",reaction,AI pre-labeled; reviewed; Hacker News item 50147448
+It’s “worse for humans” in exactly the same way the Industrial Revolution was bad for all the horses that weren’t needed anymore.,reaction,AI pre-labeled; reviewed; Hacker News item 50148041
+"lol
+
+The only thing that will matter is capital, which will translate directly into all the talking and doing needed to make more money.",reaction,AI pre-labeled; reviewed; Hacker News item 50147935
+"His point is this development is great for him and if you were a practicing mathematician trying to prove theorems, well, sucks to be you.",reaction,AI pre-labeled; reviewed; Hacker News item 50147721
+Wow - another example of just how big the Internet is. Never heard of this guy and that seems kinda unfathomable given overlap in interest.,reaction,AI pre-labeled; reviewed; Hacker News item 50147562
+"Some of us are old enough to remember the great GoDaddy-Namecheap exodus!
+
+These days I can't imagine using anything other than AWS or Cloudflare.",reaction,AI pre-labeled; reviewed; Hacker News item 50148093
+This is pure math research we're talking about here. It's not exactly lucrative and people looking for commercially applicable results ASAP weren't funding it anyway.,reaction,AI pre-labeled; reviewed; Hacker News item 50148274
+Or maybe to earn proper money?,reaction,AI pre-labeled; reviewed; Hacker News item 50148279
+Who owns the trademark on that?,reaction,AI pre-labeled; reviewed; Hacker News item 50148225
+What would the AI even use you for?,reaction,AI pre-labeled; reviewed; Hacker News item 50147447
+Link to cheap processors and storage?,reaction,AI pre-labeled; reviewed; Hacker News item 50148311
+Why not just grab it from the kernel?,reaction,AI pre-labeled; reviewed; Hacker News item 50147509
+Why not say write in this style then?,reaction,AI pre-labeled; reviewed; Hacker News item 50147301
+How are the repeater stations powered?,reaction,AI pre-labeled; reviewed; Hacker News item 50148229
+Should we be planning for another civil war?,reaction,AI pre-labeled; reviewed; Hacker News item 50148316
+What is the use case for these sorts of things?,reaction,AI pre-labeled; reviewed; Hacker News item 50147840
+Does it mean that Kikis smell/taste pointy too?,reaction,AI pre-labeled; reviewed; Hacker News item 50147444
+Can't they just read each other's logs/summaries?,reaction,AI pre-labeled; reviewed; Hacker News item 50148227
+Are you taking the telegraph reporting seriously?,reaction,AI pre-labeled; reviewed; Hacker News item 50147927
+It would work fine. seriously what are you on about?,reaction,AI pre-labeled; reviewed; Hacker News item 50147363
+Good thing LLMs are really good at translation tasks?,reaction,AI pre-labeled; reviewed; Hacker News item 50148204
+is not Amazon Route 53 more expensive than Cloudflare?,reaction,AI pre-labeled; reviewed; Hacker News item 50148273
+How do you advance humanity by eliminating the humans?,reaction,AI pre-labeled; reviewed; Hacker News item 50147667
+That works for me! Can you help me drag this 50-ton rock?,reaction,AI pre-labeled; reviewed; Hacker News item 50148385
+Their training data contains nothing about human desires?,reaction,AI pre-labeled; reviewed; Hacker News item 50148047
+Aperture supports extensions? What sort are you working on?,reaction,AI pre-labeled; reviewed; Hacker News item 50147970
+do you have alerts set up for your personal site's traffic?,reaction,AI pre-labeled; reviewed; Hacker News item 50147306
+What do you think they're meeting to talk about and managing?,reaction,AI pre-labeled; reviewed; Hacker News item 50147883
+"My fellow Frenchmen, do we tell them about Booba and ""kiki"" ?",reaction,AI pre-labeled; reviewed; Hacker News item 50147726
+Does the extra parallelism increase the token cost? By how much?,reaction,AI pre-labeled; reviewed; Hacker News item 50148016
+"gatekeeping knowledge is a bad look
+
+Unless a corporation does it?",reaction,AI pre-labeled; reviewed; Hacker News item 50148304
+"You casually included “at work”.
+
+But if the AIs replace all the jobs?",reaction,AI pre-labeled; reviewed; Hacker News item 50147819
+"Does pkgsrc use the env, etc, inv, and var subdirectories of /pkg seen here?",reaction,AI pre-labeled; reviewed; Hacker News item 50147627
+"Are you agreeing, disagreeing, or saying that more experimentation is needed?",reaction,AI pre-labeled; reviewed; Hacker News item 50148394
+All security is by obscurity or else would you please de-obscure your password?,reaction,AI pre-labeled; reviewed; Hacker News item 50148021
+Are those capabilities valuable if machines are better at all of them than you?,reaction,AI pre-labeled; reviewed; Hacker News item 50147790
+"Anthony: Whats ""dynamioc library support""? Is that a typo in the commit message?",reaction,AI pre-labeled; reviewed; Hacker News item 50148160
+"I was wondering why there was a dragon there, is it from Wrath of the Lich King?",reaction,AI pre-labeled; reviewed; Hacker News item 50147975
+"Oh cool, where did they copy the solutions to hundreds of open math questions from?",reaction,AI pre-labeled; reviewed; Hacker News item 50147793
+Didn't sunny receive harsher sentencing than Holmes for extremely comparable crimes?,reaction,AI pre-labeled; reviewed; Hacker News item 50147388
+What hardware runs Qwen? Certainly not the pi right unless you have a very small quant?,reaction,AI pre-labeled; reviewed; Hacker News item 50148449
