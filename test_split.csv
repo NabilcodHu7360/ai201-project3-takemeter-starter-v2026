@@ -1,0 +1,128 @@
+text,label,note
+"Still going huh? https://news.ycombinator.com/item?id=50082195 Are you a bot?
+
+> Please don't use HN primarily for promotion. It's ok to post your own stuff part of the time, but the primary use of the site should be for curiosity.
+
+https://news.ycombinator.com/newsguidelines.html",analysis,AI pre-labeled; reviewed; Hacker News item 50148178
+"This is well stated wisdom.
+
+It also applied/showed half a century ago. Software is very developer dependent.
+
+What that reveals isn't encouraging.
+
+I think it is fair to say, the big order bits of software design quality - in general - have moved very little. Certainly less and less over the decades.
+
+I do believe that where quality is very highly valued, there has been slow but valuable progress.
+
+But everywhere else you look, software systems pervasively demonstrate obviously poor design.
+
+That this may involve the unavoidable problems dealing with complex underlying systems, as much as it represents the application developer's lack of taste, isn't an excuse. It just demonstrates that poor design permeates the stack.
+
+This is not an argument for perfection, but an observation that even slow mostly-monotonic progress has proven to be out of reach. So far.
+
+There is a fundamental problem being unrecognized and unsolved.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148368
+"Along this line of thought. I think the ""internal tools"" product category is dead. I remember trying to deploy one of these things - Tooljet, Retool.. I can't remember exactly, and thinking, maintaining the stack and the tools is not worth the effort. But then I didn't work in a big enterprise company. So maybe others had a reason or manpower to maintain them. Now I doubt anyone wants a programmable drag and drop form builder - aka no-code/low-code software factory.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148399
+"> - 1948 - Egypt, Syria, Jordan, Iraq, and Lebanon invade Israel
+
+No. Israel invaded Mandatory Palestine. The arab states invaded and took Palestine. Egypt took Gaza. Jordan took the west bank. Israel took the rest. And the partition plan from the UN was never implemented. #conspiracy #tooEasyToBeCoincidental
+
+> - 1973 - Egypt and Syria invade Israel
+
+No again. Egypt invaded the Sinai, its territory as recognized internationally, yet taken by Israel in 1967. Syria invaded Golan Heights, again its own territory as recognized internationally even today, yet taken by Israel in 1967.
+
+> - 2006 - Hezbollah attacks Israel
+
+No again. Israel invaded Lebanon in 2006. Hezbollah demanded its soldiers back per agreement, and Israel was breaking its agreement. Hezbollah invaded Lebanese territory, given to them by Syria, yet occupied by Israel.",analysis,AI pre-labeled; reviewed; Hacker News item 50148346
+"I was thinking of these cases, turns out it was a facility in Louisiana, not gitmo.
+
+https://en.wikipedia.org/wiki/Detention_of_R%C3%BCmeysa_%C3%...
+
+https://en.wikipedia.org/wiki/Detention_of_Mahmoud_Khalil",analysis,AI pre-labeled; reviewed; Hacker News item 50148301
+"As of this comment you have 26 comments out of 206 total on this comment section, more than 10% basically all spreading FUD to try and make other people as miserable and pessimistic as you. I'm not sure what your motivations are but I'm glad we have people like Grant on the other side trying to keep a positive outlook on life and the future, and I hope all you eternal doomers who constantly try to bring others down with you find joy as well.",analysis,AI pre-labeled; reviewed; Hacker News item 50147864
+"I dont know what the future will hold, but in the past each time technology took over a profession, it ended up opening more doors than it closed. However the transition has always been rough.
+
+I have faith that when AI settles, it too will open more doors than it has closed.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148471
+Good thing LLMs are really good at translation tasks?,reaction,AI pre-labeled; reviewed; Hacker News item 50148204
+"TFA has a link to the amazon page for the bearing used. It's a bearing plus freewheel clutch. Most commonly (and in this specific case) it means sprag clutch[1], but it may be e.g. a ratchet/pawl[2] (like most bikes have) or a roller freewheel[3].
+
+1: https://en.wikipedia.org/wiki/Sprag_clutch
+
+2: https://en.wikipedia.org/wiki/Ratchet_(device)
+
+3: Couldn't find a wikipedia page for this, so https://www.youtube.com/watch?v=AU4OguQmyMM",analysis,AI pre-labeled; reviewed; Hacker News item 50147581
+Which is exactly why this human does not enjoy Forth very much.,reaction,AI pre-labeled; reviewed; Hacker News item 50147420
+"Tailscale makes Aperture available for free, and while it's not something you own, it is in your tailnet, so at least you have a certain amount of control over how things access it.
+It gives a nice view of what agents are doing, with lots of configurability and extensions, and the team behind it has been updating pretty steadily.
+
+I happen to be working on an extension to Aperture, so I have my own reason to promote it. But I do think it's a nice easy solution, and I promoted it to people before I was extending it.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147631
+"> The 6502 can't actually address more than that.
+
+Unless you use bank switching, which historically a lot of 6502 machines did use (e.g. Apple III/IIe/IIc, BBC Master 128, Commodore 128, Commodore CBM-II, etc)",analysis,AI pre-labeled; reviewed; Hacker News item 50147680
+"In spite of this, I actually kind of did build a ""software factory"". The main reason why was because there is a number of things I build that really are just means to an end, tools where I could not give a shit less if the code sucks or anything as long as it does roughly what I want. This stuff will most likely never be posted anywhere, but that's not the point, because it still has quite a bit of utility. Having a ""software factory"" to build and maintain it seemed a lot less annoying than being a ""meat proxy"" all day just to maintain some tools that aren't very important.
+
+I could be misunderstanding what a ""software factory"" is but I think whatever I have done fits the criteria. I have a custom agent that goes around implementing software and maintaining private repositories completely autonomously and I can communicate with it using issues and comments.
+
+It seems like a useful pattern, just maybe not what people had in mind. I think people figured that you'd build an AI Microsoft or something. I don't think that's true because most of what a company like that does isn't really software engineering anyway, but there is probably still something to this pattern.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147494
+"I think you need to add another adjective in there to describe this group that feels like their rights are taken away by Apple.
+
+I used Linux as my daily driver for many years. I enjoy deeply tweaking my system. But I switched to macs when life got busier because I didn’t feel particularly keen being forced to tweak my system constantly. I’ve personally not felt constrained by macOS, so maybe I’m not as erudite of a config wizard as I thought or because I let things like nix-darwin and home-manager do the heavy lifting. But that’s more an aesthetic choice than one made to achieve specific functionality. Maybe I do have more patience for configuring at the whims of others, as my nix setup breaks every major release whereas my previous personal dot files manager written in posix shell does not.
+
+Most the people I know that espouse things similar to the parent use Linux not because they were constrained by another OS, but because it appeals to their ideology. They’d rather be on OpenBSD if they could stomach it. That’s fine and good, but should be transparent.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147571
+"Its pretty easy to put together a microservice framework, along with some API spec driven tools to generate android and iOS clients then just work on UI.
+
+I dont think the author is right to say it because of all the vibe coding that this is pointless.
+
+I think it might be pointless because we are witnessing in essence the destruction of computing itself. And writing code with or without AI will eitehr not be possible (hardware unavailable) or become so unsavory and unenjoyable (jobs nobody wants) that computing for any reason but subsistence (or world domination) will die.
+
+Its even conceivable that the platforms LLMs generate all this code for (the web, mobile, desktop) will die.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147633
+Aperture supports extensions? What sort are you working on?,reaction,AI pre-labeled; reviewed; Hacker News item 50147970
+Exactly my first thought. Pretty insane that this is real life now,reaction,AI pre-labeled; reviewed; Hacker News item 50148206
+"His point is this development is great for him and if you were a practicing mathematician trying to prove theorems, well, sucks to be you.",reaction,AI pre-labeled; reviewed; Hacker News item 50147721
+It’s “worse for humans” in exactly the same way the Industrial Revolution was bad for all the horses that weren’t needed anymore.,reaction,AI pre-labeled; reviewed; Hacker News item 50148041
+"As mentioned, that had a tough sync problem. SIGSALY changed its key every 50ms. The mechanical synching of two turntables within that range was possible. That worked because the audio was being compressed pretty hard before encryption.
+Delilah, which works by using a modular analog adder to add signal and key noise, would need a new analog key value for every audio sample. Probably 3KHz or so, or about 300usec. That's beyond the precision of sync which can be achieved reliably by mechanical means.
+
+A little bit of analog buffer would help. 
+It wouldn't be a problem for transistor era electronics. You need something like an analog shift register (see ""bucket-brigade device""[1]) Those were not developed until the 1970s, and, for a while, appeared in guitar pedals, reverbs, and other simple audio processing devices. If you had to do that with tubes, you'd have a whole rack of tube delay line.
+
+Fun retro electronics project for someone.
+
+[1] https://en.wikipedia.org/wiki/Bucket-brigade_device",analysis,AI pre-labeled; reviewed; Hacker News item 50147949
+"- a bit unrelated but i had to ask
+
+- your other blog post says https://www.peterp.me/articles/clustering-node-js/ you should clustering for max performance in nodejs
+
+- are you using it in production or do you run multiple docker instances?",analysis,AI pre-labeled; reviewed; Hacker News item 50147884
+"My fellow Frenchmen, do we tell them about Booba and ""kiki"" ?",reaction,AI pre-labeled; reviewed; Hacker News item 50147726
+">I'm not convinced humans will be better at this than LLMs.
+
+they don't need to be. Any scientist is already surrounded by tools that are better than they are at anything. A scientist from 200 years ago would have the same existential shock if they see how a modern scientists works.
+
+But that's to misunderstand what science is for, which is to expand human knowledge. And a tool by definition can only ever change how you do this, not that you do it because you understanding it is the point. When people say learning to program is now useless, what they really mean is it might not make them any money, or using the AI is faster as an instrument. But if you care about programming itself, about you understanding programming, nothing has changed, it never can. And the smartest AI in the world can always assist you, but only that.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147308
+"You'd have an understandable point for a western company who likely had a revolving door of key developers and leadershhip. But Japanese companies have pretty high retention rates, and Nintendo has some of the highest of all Japanese companies, period. Not just in games.
+
+So in this case, I imagine almost all the writing staff present for Zelda in 1986 were present to establish such a timeline some 15 years later. And much of them were probably still around 20 years after that working on the upcoming remake. I'm truly envious.",analysis,AI pre-labeled; reviewed; Hacker News item 50148358
+"They have ""connectors"" you can configure for a variety of services, and both specific external tools and custom webhooks: https://tailscale.com/docs/aperture/integrate
+
+I'm building a ""bring your own data"" layer for agentic work of all sorts, using the webhook method for now.
+
+In the context of Aperture, I watch for agents looking for certain types/sources of data, and instead provide them with an in-tailnet API for accessing that data.
+
+In a personal context, think email, calendar events, music playlists, fitness app records, transactions. I've also found it useful in a professional context, but I think I need to explore that a fair bit more.
+
+It keeps credentials out of agents hands, and provides some relatively standard ways for controlling what agents can see and change.
+
+I need a fair bit of hardening work before I try to get random folk to use it, but I might post something more here in the next week. :)",analysis,AI pre-labeled; reviewed; Hacker News item 50148230
+Um…us devs have been whinging with the best of them thank you very much.,reaction,AI pre-labeled; reviewed; Hacker News item 50147919
+"Most presidents in the US are puppets of their party and contributors. When you vote, you are really voting for the party, since going outside what the party wants will generally get you nothing in the long term. Sure, it’s easy for a president to issue executive orders and temporarily get what he wants, but they can just as easily be overturned by the next president. Great presidents are great because they were able to make changes that will last many years after their presidency ends.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50147385
+"Well we have been paying people for the pure pursuit of knowledge for its own sake since the scientific revolution, which is kind of the material base for capitalism, so I don’t think your argument holds much water. Why knowledge and following curiosity facilities general prosperity is maybe an open question but that it does is inarguable.",reasoned_opinion,AI pre-labeled; reviewed; Hacker News item 50148224
+Wow someone made the youtube ad game!,reaction,AI pre-labeled; reviewed; Hacker News item 50147905
+"Wanted to dog pile on this - Godaddy gave away my entire account back when I was younger. I lost lots of domains, including my website, ""strategywiki.org"".
+
+https://news.ycombinator.com/item?id=38062595
+
+https://news.ycombinator.com/item?id=32470260
+
+https://news.ycombinator.com/item?id=24507411
+
+Looks like I'll be transitioning off of Namecheap now too.",analysis,AI pre-labeled; reviewed; Hacker News item 50147395
