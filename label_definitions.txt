@@ -1,10 +1,3 @@
-# Your label definitions, one per line, as `label: definition`.
-#
-# Copy these from your README so the baseline is judged on exactly the
-# definitions you wrote. baseline.py reads this file.
-#
-# Delete the examples below and put yours in.
-
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+analysis: explains or corrects a claim using a specific fact, number, example, or source
+reasoned_opinion: states a view and gives a reason or experience, without checkable support
+reaction: gives a brief response, question, joke, thanks, or feeling without explaining why
