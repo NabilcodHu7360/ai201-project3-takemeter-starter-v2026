@@ -82,6 +82,8 @@ every CSV row and also helped me draft the readme.
 **Pre-labeling disclosure:** All 200 rows were automatically pre-labeled and
 reviewed against the written definitions. No row is marked as cold.
 
+For Part 2, AI helped me identify and understand the staff-labeling task.
+
 See RUNNING.md for commands.
 
 ## Baseline vs. Trained
@@ -134,3 +136,23 @@ not turn a hot take into analysis.
 
 I increased training from 3 to 4 epochs. This is the only system change, chosen
 to test whether slightly more training improves confidence and seed stability.
+
+### Run Log — After
+
+| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+|---|---:|---:|---:|---:|---|
+| Accuracy | ≥0.65 | 0.833 | 0.800 | 0.800 | MET |
+| Macro F1 | ≥0.60 | 0.838 | 0.804 | 0.810 | MET |
+| Lowest label F1 | ≥0.50 | 0.783 | 0.750 | 0.727 | MET |
+| Label shares | 25–40% | 30–35% | 30–35% | 30–35% | MET |
+| Confidence gap | ≥0.10 | 0.500 | 0.100 | 0.100 | MET |
+
+It helped: accuracy spread fell from 0.100 to 0.033, and the confidence target
+changed from MISSED to MET.
+
+## What's Still Broken
+
+`analysis` and `reasoned_opinion` remain the hardest boundary; two analysis
+posts were called reasoned opinions. The labels require checkable support, but
+the model still sometimes treats detailed personal reasoning as evidence. I
+stopped after the required single improvement.

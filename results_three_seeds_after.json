@@ -1,0 +1,164 @@
+[
+  {
+    "seed": 42,
+    "n_test": 30,
+    "accuracy": 0.8333333333333334,
+    "f1_macro": 0.8382505175983437,
+    "per_label": {
+      "analysis": {
+        "precision": 0.9,
+        "recall": 0.8181818181818182,
+        "f1": 0.8571428571428571,
+        "support": 11
+      },
+      "reasoned_opinion": {
+        "precision": 0.6923076923076923,
+        "recall": 0.9,
+        "f1": 0.782608695652174,
+        "support": 10
+      },
+      "reaction": {
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1": 0.875,
+        "support": 9
+      }
+    },
+    "confusion": {
+      "analysis": {
+        "analysis": 9,
+        "reasoned_opinion": 2,
+        "reaction": 0
+      },
+      "reasoned_opinion": {
+        "analysis": 1,
+        "reasoned_opinion": 9,
+        "reaction": 0
+      },
+      "reaction": {
+        "analysis": 0,
+        "reasoned_opinion": 2,
+        "reaction": 7
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.5070294737815857,
+      "mean_when_wrong": 0.4192003309726715,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.5,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 128
+  },
+  {
+    "seed": 7,
+    "n_test": 30,
+    "accuracy": 0.8,
+    "f1_macro": 0.8035714285714285,
+    "per_label": {
+      "analysis": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.75,
+        "support": 10
+      },
+      "reasoned_opinion": {
+        "precision": 0.6470588235294118,
+        "recall": 1.0,
+        "f1": 0.7857142857142857,
+        "support": 11
+      },
+      "reaction": {
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1": 0.875,
+        "support": 9
+      }
+    },
+    "confusion": {
+      "analysis": {
+        "analysis": 6,
+        "reasoned_opinion": 4,
+        "reaction": 0
+      },
+      "reasoned_opinion": {
+        "analysis": 0,
+        "reasoned_opinion": 11,
+        "reaction": 0
+      },
+      "reaction": {
+        "analysis": 0,
+        "reasoned_opinion": 2,
+        "reaction": 7
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.46592387557029724,
+      "mean_when_wrong": 0.46191588044166565,
+      "accuracy_most_confident_third": 0.9,
+      "accuracy_least_confident_third": 0.8,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 128
+  },
+  {
+    "seed": 2024,
+    "n_test": 30,
+    "accuracy": 0.8,
+    "f1_macro": 0.8101179865885748,
+    "per_label": {
+      "analysis": {
+        "precision": 0.8,
+        "recall": 0.7272727272727273,
+        "f1": 0.7619047619047619,
+        "support": 11
+      },
+      "reasoned_opinion": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1": 0.7272727272727273,
+        "support": 10
+      },
+      "reaction": {
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "support": 9
+      }
+    },
+    "confusion": {
+      "analysis": {
+        "analysis": 8,
+        "reasoned_opinion": 3,
+        "reaction": 0
+      },
+      "reasoned_opinion": {
+        "analysis": 2,
+        "reasoned_opinion": 8,
+        "reaction": 0
+      },
+      "reaction": {
+        "analysis": 0,
+        "reasoned_opinion": 1,
+        "reaction": 8
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.4878549575805664,
+      "mean_when_wrong": 0.4558073580265045,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.9,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 128
+  }
+]
