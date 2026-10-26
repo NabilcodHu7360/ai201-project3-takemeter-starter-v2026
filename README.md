@@ -83,3 +83,8 @@ every CSV row and also helped me draft the readme.
 reviewed against the written definitions. No row is marked as cold.
 
 See RUNNING.md for commands.
+
+## Baseline vs. Trained
+
+**Prediction before running:** The trained model will beat the baseline most on
+`reaction` because those posts have a clear short-response pattern.
