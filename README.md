@@ -88,3 +88,49 @@ See RUNNING.md for commands.
 
 **Prediction before running:** The trained model will beat the baseline most on
 `reaction` because those posts have a clear short-response pattern.
+
+| Measure | Baseline | Trained |
+|---|---:|---:|
+| Accuracy | 0.500 | 0.833 |
+| Macro F1 | 0.436 | 0.835 |
+| F1 — `analysis` | 0.600 | 0.870 |
+| F1 — `reasoned_opinion` | 0.526 | 0.762 |
+| F1 — `reaction` | 0.182 | 0.875 |
+
+The prediction was correct: `reaction` improved most, by 0.693 F1.
+
+## Run Log — Before
+
+| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+|---|---:|---:|---:|---:|---|
+| Accuracy | ≥0.65 | 0.833 | 0.733 | 0.800 | MET |
+| Macro F1 | ≥0.60 | 0.835 | 0.733 | 0.809 | MET |
+| Lowest label F1 | ≥0.50 | 0.762 | 0.714 | 0.737 | MET |
+| Label shares | 25–40% | 30–35% | 30–35% | 30–35% | MET |
+| Confidence gap | ≥0.10 | 0.300 | 0.100 | 0.000 | MISSED |
+
+| true \ predicted | analysis | reasoned_opinion | reaction |
+|---|---:|---:|---:|
+| **analysis** | 10 | 1 | 0 |
+| **reasoned_opinion** | 2 | 8 | 0 |
+| **reaction** | 0 | 2 | 7 |
+
+The largest error was two `reasoned_opinion` posts called `analysis`.
+
+## Verdicts and Diagnoses
+
+Criteria 1–4 were met. Criterion 5 missed because seed 2024 scored 0.700 for
+both the most- and least-confident thirds. With only 10 posts per third, the
+model's confidence was not reliably calibrated. The 0.100 accuracy spread also
+showed that results still depended on the split.
+
+## Agreement Report
+
+Agreement was 30/30 (100%). There were no disagreements to adjudicate. The
+staff rules were clear, including the rule that a decorative statistic does
+not turn a hot take into analysis.
+
+## The Improvement
+
+I increased training from 3 to 4 epochs. This is the only system change, chosen
+to test whether slightly more training improves confidence and seed stability.
