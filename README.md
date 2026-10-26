@@ -75,12 +75,8 @@ Three hard cases:
 
 ## How I Used AI
 
-AI helped me propose a first-pass label from visible features such as sources,
-reasons, and reply length. I tightened the filters and kept the disclosure in
-every CSV row and also helped me draft the readme.
-
-**Pre-labeling disclosure:** All 200 rows were automatically pre-labeled and
-reviewed against the written definitions. No row is marked as cold.
+AI helped me tighten the filters in the CSV while keeping the disclosure in
+every row.
 
 For Part 2, AI helped me identify and understand the staff-labeling task.
 
